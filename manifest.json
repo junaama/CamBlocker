@@ -1,5 +1,23 @@
 {
     "manifest_version": 2,
-    "name": "Test extension",
-    "version": "0.1"
+    "name": "CamBlocker",
+    "version": "0.1",
+    "icons": {
+        "16": "icon-16.png",
+        "48": "icon-48.png",
+        "128": "icon-128.png"
+    },
+    "description": "A plain text description",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": ["content.js"]
+        }
+    ],
+    "permissions": [
+        "tabs",
+        "<all_urls>"
+    ]
 }
