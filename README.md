@@ -1,6 +1,6 @@
 # CamBlocker
 
-![CamBlocker Icon](icon-128.png)
+![CamBlocker Icon](icons/icon-128.png)
 
 ## Testing in Chrome/Chromium 
 
